@@ -40,7 +40,7 @@ export class FindBusinessService {
 
         const businesses = await fetch(`https://spb-classif.gate.petersburg.ru/api/v2/datasets/219/versions/latest/data/513/?per_page=100`, {
             headers: {
-                'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJ2a2lkMDAwMDAwMDAwIiwiZXhwIjoxNjc2NDc0MDg1fQ.tNTKu3InAWAk1Vb0Ubip72WhUFla3BjDI0Co4C1eCuk',
+                'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJ2a2lkMDAwMDAwMDAwIiwiZXhwIjoxNjc2NTY3MjAzfQ.5ygJ71J7Rv-JTdkXrRPPPVZqijPDvXgT3DsaiNhcF8A',
                 'Content-Type': 'application/json'
             }
         });
