@@ -59,7 +59,7 @@ export class FindBusinessService {
 
         const parks = await fetch('https://ogs.gate.petersburg.ru/object/district/' + id, {
             headers: {
-                'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJ2a2lkMDAwMDAwMDAwIiwiZXhwIjoxNjc2NDc0MDg1fQ.tNTKu3InAWAk1Vb0Ubip72WhUFla3BjDI0Co4C1eCuk',
+                'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJ2a2lkMDAwMDAwMDAwIiwiZXhwIjoxNjc2NTY3MjAzfQ.5ygJ71J7Rv-JTdkXrRPPPVZqijPDvXgT3DsaiNhcF8A',
                 'Content-Type': 'application/json'
             }
         })
